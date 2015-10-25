@@ -22,5 +22,8 @@ Si hemos instalado **composer** de forma global podríamos hacer esto:
 
 Si todo va bien, composer nos dirá todos los módulos que se han descargado y si no hay errores podemos proceder a una configuración inicial.
 
+# Configuración de servidor web.
+
+Para desarrollo podemos apuntar el document root directamente al directorio **phango** que creamos anteriormente. 
 
 
