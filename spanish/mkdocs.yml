@@ -1,0 +1,31 @@
+site_name: Documentación de Phango
+pages:
+- Home: index.md
+- Comenzando: 
+    - 'Instalación': 'started/installing.md'
+    - 'Configuración': 'started/config.md'
+    - 'Tutorial': 'started/tutorial.md'
+- Controladores y enrutado: 
+    - 'Configuración': 'controllers/config.md'
+    - 'Controladores': 'controllers/controllers.md'
+    - 'Enrutado': 'controllers/routing.md'
+    - 'Urls': 'controllers/urls.md'
+    - 'Vistas':
+        - 'Configuración': 'views/config.md'
+        - 'Vistas': 'views/views.md'
+        - 'Themes': 'views/views.md'
+- Modelos: 
+    - 'Crear un modelo': 'models/models.md'
+    - 'Intérprete de comandos': 'models/padmin.md'
+    - Formularios: 
+        - 'Creación de formularios': 'models/create_forms.md'
+        - 'Tipos de campos': 'models/forms.md'
+- Librerías: 
+    - 'Formateo de textos': 'libraries/utils.md'
+    - 'Login': 'libraries/login.md'
+    - 'Envío de emails': 'libraries/emails.md'
+    - 'Paginación': 'libraries/pages.md'
+    - 'Utilidades de Administrador': 
+        - 'Administrador': 'libraries/admin.md'
+        - 'Listados': 'libraries/simplelist.md'
+theme: readthedocs
