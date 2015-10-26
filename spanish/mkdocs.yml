@@ -28,4 +28,7 @@ pages:
     - 'Utilidades de Administrador': 
         - 'Administrador': 'libraries/admin.md'
         - 'Listados': 'libraries/simplelist.md'
+- Avanzado: 
+    - 'Configuración avanzada': 'advanced/config.md'
+    - 'Deploying': 'advanced/deploying.md'
 theme: readthedocs
