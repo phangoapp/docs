@@ -1,3 +1,7 @@
+# Requisitos mínimos
+
+Los requísitos mínimos son como mínimo la versión 5.4 de PHP junto a la extensión gd, aunque está última no es obligatoria. También recomendaría un sistema operativo tipo Unix como MacOS o GNU/Linux para desarrollo, aunque no debería dar de problemas con Windows.
+
 # Instalando Phango Framework
 
 Instalar Phango es muy sencillo, sólo necesitamos [PHP](http://www.php.net), [GIT](https://git-scm.com/) y [Composer](https://getcomposer.org/). Por supuesto, para aprovechar al máximo el framework necesitas tener ciertos conocimientos de las 3 herramientas.
@@ -24,7 +28,25 @@ Si todo va bien, composer nos dirá todos los módulos que se han descargado y s
 
 # Configuración de servidor web para desarrollo.
 
-Para desarrollo podemos apuntar el document root directamente al directorio **phango** que creamos anteriormente. 
+La forma más sencilla de configurar para desarrollo si se usan versiones de PHP más recientes, a partir de la versión 5.4.0 (cosa que debería hacerse por defecto si queremos la máxima estabilidad y rendimiento) es usar el servidor que viene con el ejecutable de php. Para usarlo sólo necesita ejecutar el siguiente comando:
+
+```bash
+php -S localhost:8080
+```
+<aside class="warning">
+<strong>ATENCIÓN</strong><br />
+Si ejecutas php en windows, necesitas que el comando esté en tu path
+</aside>
+
+Para acceder a Phango sólo necesitas poner en tu navegador la dirección:
+
+`http://localhost:8080`
+
+Y ya tendríamos nuestra versión de Phango lista para el desarrollo.
+
+## Otras opciones
+
+Si usamos Apache para desarrollo podemos apuntar el document root directamente al directorio **phango** que creamos anteriormente. 
 
 Un ejemplo de configuración para Apache con PHP como módulo sería este:
 
