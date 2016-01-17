@@ -60,9 +60,11 @@ use PhangoApp\PhaModels\Webmodel;
 use PhangoApp\PhaRouter\Routes;
 use PhangoApp\PhaView\View;
 ```
-Estas tres lineas definen tres [espacios de nombres](http://php.net/manual/en/language.namespaces.php) que se corresponden con 3 clases básicas de Phango, la de los modelos, las vistas, y las rutas, que definiran los controles.
+Estas tres lineas definen tres [espacios de nombres](http://php.net/manual/en/language.namespaces.php) que se corresponden con 3 clases básicas de Phango, la de los modelos(Webmodel), las vistas(View), y las rutas(Routes), que definiran los controles, urls, etc.
 
 Phango es un framework que puede usarse con el paradigma MVC (aunque esto no es obligatorio) y por tanto es lógico que en la configuración se aplique a los 3 elementos básicos.
+
+#Configurar clase Routes
 
 ```php
 Routes::$root_url='/';
